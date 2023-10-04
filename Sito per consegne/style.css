@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  font: 1.125rem / 1.5 system-ui, sans-serif;
+}
+
+header {
+  padding: 1rem;
+  background: #f0f0f0;
+  border-block-end: 2px solid #ccc;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.main-wrapper {
+  max-inline-size: 70ch;
+  margin: 0 auto;
+}
+
+section {
+  flex: 1;
+  padding: 0.618rem 1rem;
+}
+
+section:not(:last-child) {
+  margin-block-end: 0.5rem;
+}
+
+.slideshow {
+  scroll-snap-type: inline mandatory;
+  overflow-x: auto;
+
+  display: flex;
+  gap: 1rem;
+
+  padding: 0;
+
+  /* Brutto ma volevo fare spazio velocemente */
+  padding-block-start: 1.5rem;
+}
+
+.slide {
+  flex: 0 0 100%;
+  max-block-size: 100%;
+
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+
+  /* Hide ::marker */
+  display: inline-block;
+
+  /* Hide vertical scrollbar which is there for only God knows why */
+  overflow: hidden;
+}
+
+audio {
+  /* Spazi a caso seeeee */
+  margin-block-start: 0.5rem;
+  inline-size: 100%;
+}
