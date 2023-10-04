@@ -9,6 +9,8 @@ body {
   min-height: 100vh;
 
   font: 1.125rem / 1.5 system-ui, sans-serif;
+  font-family: "Montserrat";
+  color: #202020;
 }
 
 header {
@@ -20,6 +22,7 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
+  font-size: 2.5rem;
 }
 
 main {
@@ -68,6 +71,7 @@ section:not(:last-child) {
   display: inline-block;
 
   /* Hide vertical scrollbar which is there for only God knows why */
+  /* There is no god in this universe */
   overflow: hidden;
 }
 
@@ -75,4 +79,12 @@ audio {
   /* Spazi a caso seeeee */
   margin-block-start: 0.5rem;
   inline-size: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.6rem;
 }
