@@ -1,3 +1,9 @@
+:root {
+  --brand-color: #ee6123;
+  --black: #303030;
+  --white: #f4fff8;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -8,29 +14,28 @@ body {
   flex-direction: column;
   min-height: 100vh;
 
-  font: 1.125rem / 1.5 system-ui, sans-serif;
-  font-family: "Montserrat";
-  color: #202020;
+  font: 1.125rem / 1.5 "Inter", system-ui, sans-serif;
+  color: var(--black);
+  background-color: var(--white);
 }
 
 header {
-  padding: 1rem;
-  background: #f0f0f0;
-  border-block-end: 2px solid #ccc;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-
-  text-transform: uppercase;
+  padding: 1.5rem;
+  text-transform: capitalize;
+  color: var(--brand-color);
   font-weight: bold;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  font-family: "Pacifico";
+  box-shadow: 0 0 0.5rem var(--black);
 }
 
 main {
   flex: 1;
-
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  font-family: "Inter", sans-serif;
 }
 
 .main-wrapper {
@@ -83,6 +88,7 @@ audio {
 
 h1 {
   font-size: 2rem;
+  font-weight: bolder;
 }
 
 p {
