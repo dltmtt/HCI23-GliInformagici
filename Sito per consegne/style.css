@@ -53,7 +53,7 @@ section:not(:last-child) {
 }
 
 .slideshow {
-  scroll-snap-type: inline mandatory;
+  scroll-snap-type: inline;
   overflow-x: auto;
 
   display: flex;
@@ -66,7 +66,7 @@ section:not(:last-child) {
 }
 
 .slide {
-  flex: 0 0 100%;
+  flex: 0 0 200px;
   max-block-size: 100%;
 
   scroll-snap-align: center;
@@ -80,10 +80,17 @@ section:not(:last-child) {
   overflow: hidden;
 }
 
-audio {
-  /* Spazi a caso seeeee */
-  margin-block-start: 0.5rem;
-  inline-size: 100%;
+.slide img {
+  max-inline-size: 200px;
+  max-block-size: 200px;
+  object-fit: cover;
+}
+
+blockquote {
+  text-align: center;
+  color: #777;
+  font-size: 1.2rem;
+  font-family: "Loved by the King", cursive;
 }
 
 h1 {
