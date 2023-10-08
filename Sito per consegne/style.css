@@ -62,7 +62,7 @@ section:not(:last-child) {
   padding: 0;
 
   /* Brutto ma volevo fare spazio velocemente */
-  padding-block-start: 1.5rem;
+  padding-block: 1.5rem;
 }
 
 .slide {
@@ -88,9 +88,10 @@ section:not(:last-child) {
 
 blockquote {
   text-align: center;
-  color: #777;
-  font-size: 1.2rem;
-  font-family: "Loved by the King", cursive;
+  color: var(--black);
+  font-size: 0.8rem;
+  /*font-family: "Loved by the King", cursive;*/
+  font-style: italic;
 }
 
 h1 {
