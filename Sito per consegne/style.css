@@ -43,6 +43,22 @@ main {
   margin: 0 auto;
 }
 
+.button {
+  display: block;
+  inline-size: fit-content;
+  padding: 1rem;
+  margin: 0 auto;
+
+  background: var(--brand-color);
+  color: var(--white);
+  border-radius: 0.5rem;
+  transition: 0.4s;
+}
+
+.button:not(:active) {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+}
+
 section {
   flex: 1;
   padding: 0.618rem 1rem;
