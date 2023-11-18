@@ -1,8 +1,6 @@
 # Teemy: Connect with players, build your team
 
-## Introduzione
-
-Teemy è un'app innovativa progettata per connettere persone appassionate di sport, offrendo la possibilità di creare prenotazioni aperte a chiunque desideri partecipare. Con il motto *"Connect with players, build your team"* Teemy incoraggia l'inclusività e offre un modo unico per giocare insieme a perfetti sconosciuti, creando nuove opportunità di socializzazione attraverso l'amore per lo sport.
+> Teemy è un'app innovativa progettata per connettere persone appassionate di sport, offrendo la possibilità di creare prenotazioni aperte a chiunque desideri partecipare. Con il motto *"Connect with players, build your team"* Teemy incoraggia l'inclusività e offre un modo unico per giocare insieme a perfetti sconosciuti, creando nuove opportunità di socializzazione attraverso l'amore per lo sport.
 
 ## Funzionalità
 
