@@ -2,6 +2,10 @@
 
 > Teemy è un'app innovativa progettata per connettere persone appassionate di sport, offrendo la possibilità di creare prenotazioni aperte a chiunque desideri partecipare. Con il motto *"Connect with players, build your team"* Teemy incoraggia l'inclusività e offre un modo unico per giocare insieme a perfetti sconosciuti, creando nuove opportunità di socializzazione attraverso l'amore per lo sport.
 
+## Prova l'applicazione
+
+> Puoi provare Teemy su [Figma](https://www.figma.com/) cliccando [qui](https://www.figma.com/proto/DMEb7qRdNT3iYsdkb1bFne/Design-low-%2B-intermediate-fidelity?type=design&node-id=335-87679&t=M312BrX3ykPNShI2-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=335%3A87679&show-proto-sidebar=1&mode=design).
+
 ## Funzionalità
 
 ### Creazione di Gruppi
