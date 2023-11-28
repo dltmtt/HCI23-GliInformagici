@@ -46,6 +46,7 @@ main {
   gap: 1.5rem;
 
   padding: 0;
+  margin-block: 1.5rem;
   place-content: center;
   flex-wrap: wrap;
 }
