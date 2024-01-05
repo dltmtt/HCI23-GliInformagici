@@ -41,7 +41,7 @@ main {
   margin: 0 auto;
 }
 
-#consegne {
+.consegne {
   display: flex;
   gap: 1.5rem;
 
@@ -69,11 +69,29 @@ main {
 }
 
 .consegna {
-  font-size: 6rem;
+  font-size: 5rem;
   margin: 0;
   text-align: center;
   line-height: initial;
   padding: 2rem;
+  border-start-start-radius: inherit;
+  border-start-end-radius: inherit;
+}
+
+#consegna_finale {
+  .box {
+    background-color: #eee;
+  }
+  .consegna {
+    font-size: 2.5rem;
+    background: var(--brand-color);
+    color: var(--white);
+  }
+
+  .button {
+    background: #eee;
+    color: var(--black);
+  }
 }
 
 .button {
@@ -95,29 +113,17 @@ main {
 
 section {
   flex: 1;
-  padding: 0.618rem 1rem;
-}
-
-section:not(:last-child) {
-  margin-block-end: 0.5rem;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: bolder;
-  font-family: "Young Serif";
-  color: var(--brand-color);
-  margin-top: 0;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: var(--black);
+  margin-block-start: 0.8em;
 }
 
 p {
-  line-height: 1.6rem;
-  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  margin-block-end: 0.5rem;
 }
 
 a {
@@ -126,4 +132,10 @@ a {
   text-decoration-thickness: 0.125rem;
   color: var(--black);
   font-weight: bold;
+}
+
+footer {
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 0.2rem solid var(--brand-color);
 }
