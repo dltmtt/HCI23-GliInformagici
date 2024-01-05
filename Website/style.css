@@ -62,10 +62,10 @@ main {
   text-decoration: none;
 
   transition: 0.4s;
+}
 
-  &:hover {
-    filter: brightness(0.95);
-  }
+.box:hover {
+  filter: brightness(0.95);
 }
 
 .consegna {
@@ -78,20 +78,19 @@ main {
   border-start-end-radius: inherit;
 }
 
-#consegna_finale {
-  .box {
-    background-color: #eee;
-  }
-  .consegna {
-    font-size: 2.5rem;
-    background: var(--brand-color);
-    color: var(--white);
-  }
+#consegna_finale .box {
+  background-color: #eee;
+}
 
-  .button {
-    background: #eee;
-    color: var(--black);
-  }
+#consegna_finale .consegna {
+  font-size: 2.5rem;
+  background: var(--brand-color);
+  color: var(--white);
+}
+
+#consegna_finale .button {
+  background: #eee;
+  color: var(--black);
 }
 
 .button {
